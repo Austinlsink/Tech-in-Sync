@@ -1,0 +1,67 @@
+/* ============== */
+/* Type selectors */
+/* ============== */
+
+body { 
+    background-color: #F2F2F2; 
+    color: #071726;
+    font-family: 'Open Sans', sans-serif;}
+
+ul { 
+    border-top: 1.5px solid #071726;
+    border-bottom: 1.5px solid #071726;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center; }
+
+li{ 
+    display: inline;
+    margin: 0px 10px; }
+
+a { text-decoration: none;
+    font-size: 16px;
+    color: #BF2C2C;
+    font-family: 'Raleway', sans-serif;
+    }
+
+a:hover, a.on { color: #071726; }
+
+h1 {text-align: center;
+    font-size: 36px;
+    color: #BF2C2C;}
+
+p {line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px}
+
+
+/* =============== */
+/* Class selectors */
+/* =============== */
+
+.content{ 
+    max-width: 620px;
+    padding: 30px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto }
+
+.beta {text-align: center;
+    color: #F2F2F2;
+    background-color: #071726;
+    padding: 15px}
+
+.svg-container{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+/* =================== */
+/* Animation keyframes */
+/* =================== */
+
+@keyframes drive { 
+    from {transform: translateY(-100px);} 
+    to   {transform: translateY(0px);} }
+
+.logo { animation: drive 5s ease;}
