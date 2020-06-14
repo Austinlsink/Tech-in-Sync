@@ -1,0 +1,7 @@
+.container { 
+    display: flex;
+} /* children of the parent will be block-level elements */
+
+.container > p { 
+    padding: 20px;
+}
